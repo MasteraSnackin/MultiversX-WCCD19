@@ -1,8 +1,3 @@
-Explanation
-Cargo.toml: This file lists the dependencies required for your project. The multiversx-sc dependency is crucial for interacting with the MultiversX blockchain.
-
-src/lib.rs: This is the main contract file. It includes:
-
 Initialization: The init function sets the required amount of ore.
 Endpoints:
 setOreRequirement: Allows the contract owner to set the ore requirement.
