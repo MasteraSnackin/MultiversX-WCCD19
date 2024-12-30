@@ -1,0 +1,12 @@
+[package]
+name = "tool_minting_contract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+elrond-wasm = "0.27"
+elrond-wasm-derive = "0.27"
+elrond-codec = "0.27"
+
+[lib]
+crate-type = ["cdylib"]
